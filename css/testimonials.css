@@ -1,0 +1,124 @@
+#kudo-wrap{
+  width: 100%; 
+  height: 810px;
+  margin: 0 auto; 
+  background-image: url(https://s3.amazonaws.com/tlcmedicalmassage/wp-content/uploads/WaterStandingWave.jpg);
+  background-size: cover;
+}
+.mobile_review {display:none;}
+.desktop_review {display:block}
+.testmonial_space {margin-left:20px;}
+.adj-layer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.testi_height{ height:130px}
+
+h1 {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: rgba(206,76,57,0.8);
+}
+
+.testimonial-quote blockquote {
+  /* Negate theme styles */
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none;
+  color: gray;
+  font-family: Georgia, serif;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.4 !important;
+  margin: 0 0px;
+  position: relative;
+  text-shadow: 0 1px #fff;
+  z-index: 1;
+}
+
+.testimonial-quote blockquote * {
+  box-sizing: border-box;
+}
+
+.testimonial-quote blockquote p {
+  color: #75808a;
+  font-size:18px;
+  line-height: 1.4 !important;
+}
+
+.testimonial-quote blockquote p:first-child:before { /* quotemarks */
+  content: '\201C';
+  color: #F7BA4D;
+  font-size: 7.5em;
+  font-weight: 700;
+  opacity: .3;
+  position: absolute;
+  top: -.4em;
+  left: -.2em;
+  text-shadow: none;
+  z-index: -300;
+}
+
+.testimonial-quote img {
+  border: 3px solid #F7BA4D;
+  border-radius: 50%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left:20px;
+  position: absolute;
+  top: -.2em;
+  left: 0;
+}
+
+.testimonial-quote cite {
+  color: gray;
+  display: block;
+  font-size: .8em;
+}
+
+.testimonial-quote cite span {
+  color: #F7BA4D;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px white;
+}
+
+.testimonial-quote {
+  position: relative;
+}
+
+.testimonial-quote .quote-container {
+  padding-left: 160px;
+}
+
+@media only screen and (max-width: 600px) {
+   .testimonial-quote .quote-container {
+  padding-left: 0px;
+}
+.testi_height{ height:auto}
+.testimonial-quote img {
+  border: 3px solid #F7BA4D;
+  border-radius: 50%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-left:0px;
+  position:inherit;
+  top: -.2em;
+  left: 0;
+}
+.mobile_review {display:block;}
+.desktop_review {display:none}
+}
